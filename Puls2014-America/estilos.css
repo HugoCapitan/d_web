@@ -1,0 +1,102 @@
+a {
+	color: #22BCE0;
+}
+figure {
+	margin: 0;
+}
+body {
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+footer {
+	color: white;
+	background: #22BCE0;
+	text-align: center;
+	padding: 1em;
+}
+footer p:first-child {
+	margin-bottom: 0;
+}
+footer p:last-child {
+	margin-top: 0;
+}
+footer p:last-child:before {
+	content: "- "
+}
+footer p:last-child:after {
+	content: " -"
+}
+header {
+	background: #343B54;
+	color: white;
+	padding: 0.5em;
+	overflow: hidden;
+	position: relative;
+}
+header figure {
+	float: left;
+}
+header h1 {
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0 70px 0 0;
+}
+header #avatar {
+	margin: 0.5em 0.5em 0em 0em;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+header #avatar img {
+	border-radius: 50%;
+	width: 55px;
+}
+header #logo img {
+	width: 52px;
+	border-right: 1px solid white;
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+	margin-left: 0px;
+}
+nav {
+	background: #80BCA3;
+	padding: 0, 0.5em;
+	position: relative;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul #publicar_nav {
+	position: absolute;
+	top: 0em;
+	right: 0;
+}
+nav ul #publicar_nav a{
+	background: #22BCE0;
+	padding: 0.6em 0.8em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	border-radius: 0.2em;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+nav ul li a{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+#contenido {
+	margin: 1em;
+}
+#contenido .item {
+	background: white;
+	border-bottom: 3px solid;
+}
