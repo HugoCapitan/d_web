@@ -3,9 +3,12 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="Proyecto de la primera generación del 2014 del curso de diseño web online" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1 maximum-scale=1" />
 	<title>Puls2014: Comunidad de personas atractivas</title>
 	<link rel="stylesheet" type="text/css" href="normalize.css" />
 	<link rel="stylesheet" type="text/css" href="estilos.css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />
+	<script type="text/javascript" src="prefixfree.js"></script>
 </head>
 <body>
 	<header>
@@ -27,10 +30,22 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#">Publicar</a>
+				<a href="#" class="icon-pluma" id="mostrar_form">Publicar</a>
 			</li>
 		</ul>
 	</nav>
+	<form action="" id="formulario" class="formulario">
+		<input type="text" id="titulo" placeholder="Título" required />
+		<input type="url" id="url" placeholder="link" required />
+		<input type="submit" value="Agregar" />	
+	</form>
+	<aside>
+		<video autoplay controls>
+			<source src="lecturas.mp4" type="video/mp4" />
+			<source src="lecturas.ogg" type="video/ogg" />
+			<!-- Actualiza tu explorador -->
+		</video>	
+	</aside>
 	<section id="contenido">
 		<article class="item">
 			<figure class="imagen_item">
@@ -51,11 +66,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="down icon-down-vote"></a>
 				720
-				<a href="#" class="down">D</a>
+				<a href="#" class="up icon-up-vote"></a>
 				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -64,7 +79,7 @@
 			</figure>
 			<h2 class="titulo_item">
 				<a href="#">
-					Título del articulo
+					Título del articulo 1
 				</a>
 			</h2>
 			<div class="autor_item">
@@ -77,11 +92,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="down icon-down-vote"></a>
 				720
-				<a href="#" class="down">D</a>
+				<a href="#" class="up icon-up-vote"></a>
 				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -90,7 +105,7 @@
 			</figure>
 			<h2 class="titulo_item">
 				<a href="#">
-					Título del articulo
+					Título del articulo 1
 				</a>
 			</h2>
 			<div class="autor_item">
@@ -103,11 +118,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="down icon-down-vote"></a>
 				720
-				<a href="#" class="down">D</a>
+				<a href="#" class="up icon-up-vote"></a>
 				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -116,7 +131,7 @@
 			</figure>
 			<h2 class="titulo_item">
 				<a href="#">
-					Título del articulo
+					Título del articulo 1
 				</a>
 			</h2>
 			<div class="autor_item">
@@ -129,11 +144,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="down icon-down-vote"></a>
 				720
-				<a href="#" class="down">D</a>
+				<a href="#" class="up icon-up-vote"></a>
 				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -142,7 +157,7 @@
 			</figure>
 			<h2 class="titulo_item">
 				<a href="#">
-					Título del articulo
+					Título del articulo 1
 				</a>
 			</h2>
 			<div class="autor_item">
@@ -155,11 +170,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="down icon-down-vote"></a>
 				720
-				<a href="#" class="down">D</a>
+				<a href="#" class="up icon-up-vote"></a>
 				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -168,7 +183,7 @@
 			</figure>
 			<h2 class="titulo_item">
 				<a href="#">
-					Título del articulo
+					Título del articulo 1
 				</a>
 			</h2>
 			<div class="autor_item">
@@ -181,11 +196,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="down icon-down-vote"></a>
 				720
-				<a href="#" class="down">D</a>
+				<a href="#" class="up icon-up-vote"></a>
 				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 	</section>
@@ -197,5 +212,7 @@
 			mejorando.la 2014
 		</p>
 	</footer> 
+	<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="formulario.js"></script>
 </body>
 </html>
