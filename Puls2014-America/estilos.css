@@ -148,6 +148,11 @@ nav ul #publicar_nav a{
 	padding: 0.6em 0.8em;
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 }
+nav ul #publicar_nav a.disabled {
+	background-color: grey;
+	cursor: default;
+	box-shadow: none;
+}
 aside {
 	display: none;
 }
